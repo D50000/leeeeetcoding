@@ -1,2 +1,2 @@
-# leeeeetcoding
+# Leeeeetcoding
 leetcode notes
