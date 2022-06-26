@@ -4,7 +4,7 @@
  * @return {number[]}
  */
 var intersect = function (nums1, nums2) {
-  // BigO(2n)
+  // BigO(n)
   const map = new Map();
   const ans = new Array();
   for (let i = 0; i < nums1.length; i++) {

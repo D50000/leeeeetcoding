@@ -3,8 +3,8 @@
  * @param {number} target
  * @return {number[]}
  */
-var twoSum = function (nums, target) {
-  // HashMap solution.
+var twoSum = function (nums, target) { 
+  // HashMap solution. BigO(n)
   // Map store { value: index }, and check diff first for avoiding re-match the ele.
   // Just declare not initialize the map, then set the value: index into map. If it is exist just return the answer.
   const hashmap = new Map();
