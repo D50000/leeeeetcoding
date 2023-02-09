@@ -3,7 +3,7 @@
  * @return {number}
  */
 var singleNumber = function (nums) {
-  // BigO(n)
+  // BigO(2n)
   const map = new Map();
   for (let i = 0; i < nums.length; i++) {
     if (!map.hasOwnProperty(nums[i])) {
